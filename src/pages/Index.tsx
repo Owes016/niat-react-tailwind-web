@@ -9,6 +9,7 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import HeadlinesSection from '@/components/HeadlinesSection';
 import FaqSection from '@/components/FaqSection';
+import MentorshipSection from '@/components/MentorshipSection';
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <MentorshipSection />
         <StatsSection />
         <CoursesSection />
         <ProgramsSection />
