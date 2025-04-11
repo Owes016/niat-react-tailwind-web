@@ -11,6 +11,7 @@ import HeadlinesSection from '@/components/HeadlinesSection';
 import FaqSection from '@/components/FaqSection';
 import MentorshipSection from '@/components/MentorshipSection';
 import CollaborationsSection from '@/components/CollaborationsSection';
+import HighlightsSection from '@/components/HighlightsSection';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <CollaborationsSection />
         <StatsSection />
         <CoursesSection />
+        <HighlightsSection />
         <ProgramsSection />
         <HeadlinesSection />
         <FaqSection />
